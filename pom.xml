@@ -43,5 +43,6 @@
         <module>seata-biz-service</module>
         <module>seata-order-service</module>
         <module>seata-pay-service</module>
+        <module>websocket-server</module>
     </modules>
 </project>

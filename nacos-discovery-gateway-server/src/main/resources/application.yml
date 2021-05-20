@@ -15,6 +15,15 @@ spring:
             - Path=/provider/**
           filters:
             - StripPrefix=1
+      discovery:
+        locator:
+          lower-case-service-id: true
+          enabled: true
+#        - id: websocket-server
+#          #uri: ws://localhost:8041
+#          uri: lb://websocket-server
+#          predicates:
+#            - Path=/test-ws/**
 
 server:
   port: 8054

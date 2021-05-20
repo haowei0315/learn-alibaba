@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.pig4cloud.alibaba</groupId>
-    <artifactId>nacos-discovery-gateway-server</artifactId>
+    <artifactId>websocket-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>nacos-discovery-gateway-server</name>
-    <description>nacos 整合spring cloud gateway</description>
+    <name>websocket-server</name>
+    <description>websocket服务方</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -24,13 +24,27 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
+       <!-- <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>-->
+
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-gateway</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-    </dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
     <!--依赖版本定义-->
     <dependencyManagement>
         <dependencies>
