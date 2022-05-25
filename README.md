@@ -4,8 +4,8 @@ Spring Cloud Alibaba 作为 Spring Cloud 新的实现之一，是阿里巴巴多
 
 * gateway网关过滤器
 * websocket与网关集成演示
-websocket-server服务端代码
-nacos-discovery-gateway-server网页集成演示
+  * websocket-server服务端代码
+  * nacos-discovery-gateway-server网页集成演示
 
 
 ---
